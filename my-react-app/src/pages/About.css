@@ -1,0 +1,23 @@
+/* About.css */
+.about-container {
+    border: 2px solid #333; /* Add a border */
+    padding: 20px; /* Add padding for better spacing */
+    max-width: 600px; /* Limit content width */
+    margin: 0 auto; /* Center align content */
+    font-family: "CoolFont", sans-serif; /* Use a cool font (replace "CoolFont" with actual font name) */
+  }
+  
+  .about-container h2 {
+    font-size: 32px; /* Increase the font size for the name */
+    margin-bottom: 10px; /* Add margin below the name */
+  }
+  
+  .about-container h3 {
+    font-size: 24px; /* Increase the font size for the email */
+    margin-bottom: 10px; /* Add margin below the email */
+  }
+  
+  .about-container p {
+    font-size: 18px; /* Increase the font size for the bio */
+  }
+  
