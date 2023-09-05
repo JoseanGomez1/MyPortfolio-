@@ -1,16 +1,14 @@
 [
-    {
-      "name": "project1",
-      "live": "https://app.herokuapp.com/whatever",
-      "git": "http://www.github.com/username/reponame",
-      "image": "http://www.imgur.com/pictureofproject.png"
-    },
-    {
-      "name": "project2",
-      "live": "https://app.netlify.app/whatever",
-      "git": "http://www.github.com/username/reponame",
-      "image": "http://www.imgur.com/pictureofproject.png"
-    }
-  ]
-  
-  
+  {
+    "name": "project1",
+    "live": "https://joseangomez1.github.io/WW2Trivia-/",
+    "git": "https://github.com/JoseanGomez1/WW2Trivia-",
+    "image": "https://i.imgur.com/Sng2ZDK.png"
+  },
+  {
+    "name": "project2",
+    "live": "https://get-me-fit-dev-2b4dfc1e9975.herokuapp.com/",
+    "git": "https://github.com/JoseanGomez1/Get-Me-Fit-App",
+    "image": "https://i.imgur.com/pY3m4Ns.png"
+  }
+]

@@ -1,34 +1,28 @@
-import { useState, useEffect } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+// IMPORT COMPONENTS
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
+
+// IMPORT PAGES
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
 
 function App() {
-	const [gifs, setGifs] = useState([]);
-	function getGifData() {
-			const url = `https://api.giphy.com/v1/gifs/search?api_key=${process.env.REACT_APP_GIPHY_KEY}&q=minions&limit=10&rating=G&lang=en`;
-			fetch(url)
-				.then((res) => res.json())
-				.then((res) => {
-					console.log('We have data!', res.data);
-					setGifs(res.data);
-				})
-				.catch(console.error);
-		}
-		
-	useEffect(() => {
-		getGifData();
-	}, []);
 
-const loaded = () => {
-    return gifs.map((gif) => (
-      <div>
-        <h1>{gif.title}</h1>
-        <img src={gif.images["original"]["url"]} alt={gif.embed_url} />
-      </div>
-    ));
-  };
-
-  return gifs ? loaded() : <h1>Loading...</h1>;
+  return (
+    <div className="App">
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

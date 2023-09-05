@@ -15,7 +15,7 @@ function Home(props) {
               typewriter
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString("Welcomes to Josean Gomez Portfollio")
+                .typeString("Welcome to Josean Gomez Portfollio. Have a look around")
                 .start();
             }}
           />

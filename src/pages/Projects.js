@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
 
+import styles from './projects.css'; // Note the lowercase 'projects.css'
+
+
+
 function Projects(props) {
   // create state to hold projects
   const [projects, setProjects] = useState(null);
@@ -24,21 +28,21 @@ function Projects(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return projects.map((project) => (
-      <div>
+      <div key={project.id}>
         <h1>{project.name}</h1>
-        <img src={project.image} />
+        <img src={project.image} alt={project.name} className={styles.smallImage} />
         <a href={project.git}>
           <button>Github</button>
         </a>
         <a href={project.live}>
-          <button>live site</button>
+          <button>Live site</button>
         </a>
       </div>
     ));
   };
+  
 
   return projects ? loaded() : <h1>Loading...</h1>;
 }
 
 export default Projects;
-
