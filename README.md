@@ -14,8 +14,13 @@ Josean Gomez is a software enthusiast set to graduate in October 2023. After gra
 
 -CSS
 
+-HTML
+
 ## A list of future features
 -Slideshow
+
 -better design 
+
 -more  projects
+
 -better deployments
