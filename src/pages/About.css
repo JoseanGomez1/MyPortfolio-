@@ -20,4 +20,8 @@
   .about-container p {
     font-size: 18px; /* Increase the font size for the bio */
   }
-  
+  /* About.css */
+.about-image {
+  width: 200px; /* Set the width and other styles as needed */
+  height: auto;
+}
