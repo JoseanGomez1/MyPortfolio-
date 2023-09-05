@@ -5,7 +5,7 @@ Josean Gomez is a software enthusiast set to graduate in October 2023. After gra
 
 
 ## Portfolio application Link
-[netlify](https://portfoliojosean.netlify.app/)
+[netlify link to portfolio application](https://portfoliojosean.netlify.app/)
 
 Technologies used
 -React
