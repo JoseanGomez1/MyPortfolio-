@@ -13,15 +13,15 @@
   }
   
   .about-container h3 {
-    font-size: 24px; /* Increase the font size for the email */
-    margin-bottom: 10px; /* Add margin below the email */
+    font-size: 24px; 
+    margin-bottom: 10px; 
   }
   
   .about-container p {
-    font-size: 18px; /* Increase the font size for the bio */
+    font-size: 18px; 
   }
-  /* About.css */
+ 
 .about-image {
-  width: 200px; /* Set the width and other styles as needed */
+  width: 200px; 
   height: auto;
 }

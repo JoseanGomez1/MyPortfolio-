@@ -6,7 +6,7 @@ function Home(props) {
   return (
     <div className="homepage-container">
       <div className="header-buttons">
-        {/* Your header buttons or navigation go here */}
+        {}
       </div>
       <div className="homepage-content">
         <div className="typewriter">

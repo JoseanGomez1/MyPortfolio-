@@ -3,7 +3,7 @@ import './Header.css';
 
 function Header() {
 
-  //an example of an inline style for the nav tag for an initial layout - later additions, or 
+  
 
   const navStyle = {
     display: "flex",
